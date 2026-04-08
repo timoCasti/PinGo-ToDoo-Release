@@ -10,11 +10,11 @@ Collaborative shopping list app for Windows and Android.
 **Requirements:** Windows 10/11
 
 ### Android
-[Download ToDoo 1.0.0.aab](https://github.com/timoCasti/PinGo-ToDoo-Release/releases/download/v1.0.0/ToDoo-1.0.0.aab) (52.7 MB)
+[Download ToDoo 1.0.0.apk](https://github.com/timoCasti/PinGo-ToDoo-Release/releases/download/v1.0.0/ToDoo-1.0.0.apk) (72.9 MB)
 
 **Requirements:** Android 5.0+
 
-**Note:** The `.aab` file is the Android App Bundle format. For direct installation on your device, you may need to convert it to APK or sideload it. For distribution, use Google Play Store.
+**Note:** You may need to enable "Install from unknown sources" in Android settings to install the APK.
 
 ## Installation
 
@@ -24,20 +24,15 @@ Collaborative shopping list app for Windows and Android.
 3. Follow the setup wizard
 
 ### Android
-
-**Option 1: Google Play Store (Recommended)**
-- Upload the `.aab` file to Google Play Console for distribution
-
-**Option 2: Direct Installation**
-- The `.aab` format cannot be directly installed on devices
-- If you need an `.apk` for direct installation, build using:
-  ```
-  cd android && ./gradlew assembleRelease
-  ```
-- Then install the generated `.apk` file by enabling "Install from unknown sources"
+1. Download the .apk file to your device
+2. Open the downloaded file
+3. If prompted, enable "Install from unknown sources" in Settings
+4. Tap Install and follow the prompts
 
 ## Features
-- Collaborative shopping lists
-- Real-time sync with Supabase
-- Works offline with local database
-- Cross-platform: Windows, Android, Web
+- ✅ Collaborative shopping lists with friends and family
+- ✅ Real-time sync across all devices
+- ✅ Works offline with local database
+- ✅ Cross-platform: Windows, Android, and Web
+- ✅ Color-coded collaborators for easy tracking
+- ✅ Simple and intuitive interface
