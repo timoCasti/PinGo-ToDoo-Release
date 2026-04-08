@@ -1,0 +1,5 @@
+# Ignore binary releases - upload these via GitHub Releases instead
+releases/**/*.exe
+releases/**/*.apk
+releases/**/*.aab
+releases/**/*.ipa
